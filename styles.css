@@ -1,0 +1,151 @@
+body{
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.title-img{
+ width: 70%;
+ position: relative;
+ left: 90px;
+ top: 50px;
+}
+
+.container-fluid{
+ padding: 3% 3%;
+}
+
+.main-heading{
+ padding-top: 30%;
+ font-size: 4rem;
+ line-height: 1.5;
+ color: #413F42;
+ text-align: left;
+}
+
+.bottom-heading{
+ font-size: 2.8rem;
+ line-height: 1.5;
+ color: #413F42;
+ text-align: left;
+}
+
+h1,h3{
+ font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+ padding-bottom: 20%;
+ background-color: #EFD9D1; 
+}
+
+
+.nav-item{
+ padding: 0 18px 0 18px;
+}
+
+.nav-bar{
+ background-color: #EFD9D1;
+}
+/* .navbar-brand{
+ font-size:;
+ color: #413F42;
+} */
+
+.sofa{
+ width: 80%;
+ position: relative;
+}
+
+.bed{
+ width: 85%;
+ position: relative;
+ left: 100px;
+}
+
+#features{
+ padding: 10%;
+}
+
+.info{
+ font-size: 3rem;
+ line-height: 1.5;
+ color: #413F42;
+ text-align: left;
+ padding-left: 13%;
+}
+
+#sale{
+ background-color: #F4EEED;
+ padding: 10%;
+ text-align: center;
+}
+
+.chair{
+ width: 70%;
+ border-radius: 100%;
+ margin-bottom: 80px;
+}
+
+.sofa1 ,.dresser, .chair2,.dinning,.sofa2{
+ width: 70%;
+ border-radius: 100%;
+
+}
+
+.summer-sale{
+ padding-bottom: 10%;
+ font-size: 3.5rem;
+ color: #413F42;
+}
+
+.carousel{
+ padding: 70px;
+ color: #413F42;
+ text-align: center;
+}
+
+.review-text{
+ font-size: 3.5rem;
+ line-height: 1.5;
+ padding-bottom: 30px;
+ font-family: 'Nunito', sans-serif;
+}
+
+.photo-person{
+ width: 5%;
+ border-radius: 100%;
+}
+
+#cta{
+ padding: 90px;
+ text-align: center;
+ background-color: #EFD9D1;
+ color: #413F42;
+}
+
+#footer{
+ padding: 50px;
+ text-align: center;
+}
+
+.icon{
+ padding: 1%;
+ color: black;
+}
+
+@media(max-width:992px){
+
+ .title-img{
+  position: relative;
+  left: 140px;
+ }
+ .main-heading, .bottom-heading{
+  text-align: center;
+ }
+ .info{
+  font-size: 2rem;
+ }
+ .dresser, .chair2{
+  margin-bottom: 80px;
+ }
+}
